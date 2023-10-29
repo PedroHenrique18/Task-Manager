@@ -6,7 +6,7 @@ Este é um projeto de gerenciador de tarefas com autenticação de usuário, con
 - Autenticação de usuário: Registre-se, faça login e faça logout de sua conta.
 - Gerenciamento de Tarefas: Crie, leia, atualize e delete tarefas.
 - Interface de Usuário Amigável
-- 
+  
 <img src="https://github.com/PedroHenrique18/Gerenciador-de-Tarefas/blob/main/2023-10-28-20-24-06.gif">
 
 # Pré-requisitos
@@ -42,9 +42,9 @@ pip install -r requirements.txt
 
 MySQL
 
-1.Crie um banco de dados no MySQL.
+1. Crie um banco de dados no MySQL.
 
-2.Configure as variáveis de ambiente para a conexão com o banco de dados no arquivo em settings.py
+2. Configure as variáveis de ambiente para a conexão com o banco de dados no arquivo em settings.py
 
 ```python
 DATABASES = {
@@ -59,7 +59,7 @@ DATABASES = {
 }
 ```
 
-3.Aplique as migrações:
+3. Aplique as migrações:
 
 ```bash
 python manage.py migrate
@@ -75,7 +75,7 @@ npm install
 
 Agora que o ambiente está configurado, você pode executar o projeto:
 
-1.Inicie o servidor Django na pasta backend_2 execute:
+1. Inicie o servidor Django na pasta backend_2 execute:
 
 ```bash
 python manage.py runserver
