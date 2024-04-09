@@ -20,7 +20,7 @@ This is a task manager project with user authentication, built with Django Rest 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/PedroHenrique18/Gerenciador-de-Tarefas.git
+git clone https://github.com/PedroHenrique18/Task-Manager.git
 ```
 
 ### 2. Virtual Environment (Optional)
@@ -48,13 +48,14 @@ MySQL
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'nome-do-banco-de-dados',
-        'USER': 'seu-usuario',
-        'PASSWORD': 'sua-senha',
+        'NAME': 'database-name',
+        'USER': 'your-user',
+        'PASSWORD': 'your-password',
         'HOST': 'localhost',
         'PORT': '',
     }
 }
+
 ```
 
 3. Apply migrations:
