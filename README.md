@@ -1,50 +1,48 @@
-# Gerenciador de Tarefas com Autenticação de Usuário
+# Task Manager with User Authentication
 
-Este é um projeto de gerenciador de tarefas com autenticação de usuário, construído com Django Rest Framework (DRF) no back-end e React com TypeScript no front-end. O projeto permite que os usuários registrem suas contas, façam login, criem tarefas, atualize e delete tarefas
+This is a task manager project with user authentication, built with Django Rest Framework (DRF) on the backend and React with TypeScript on the frontend. The project allows users to register their accounts, login, create tasks, update, and delete tasks.
 
-# Funcionalidades
-- Autenticação de usuário: Registre-se, faça login e faça logout de sua conta.
-- Gerenciamento de Tarefas: Crie, leia, atualize e delete tarefas.
-- Interface de Usuário Amigável
+# Features
+- User Authentication: Register, login, and logout from your account.
+- Task Management: Create, read, update, and delete tasks.
+- User-Friendly Interface
   
 <img src="https://github.com/PedroHenrique18/Gerenciador-de-Tarefas/blob/main/2023-10-28-20-24-06.gif">
 
-# Pré-requisitos
-- Python e Django
+# Prerequisites
+- Python and Django
 - MySQL
 - Node.js
-- Yarn (ou npm)
+- Yarn (or npm)
 
-# Configuração do Ambiente
+# Environment Setup
 
-### 1. Clone o Repositório
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/PedroHenrique18/Gerenciador-de-Tarefas.git
 ```
 
-### 2. Ambiente Virtual (Opcional)
-
-Recomenda-se criar um ambiente virtual para isolar as dependências do projeto. Se você não tem o ambiente virtual instalado, instale-o usando o seguinte comando:
+### 2. Virtual Environment (Optional)
+It is recommended to create a virtual environment to isolate the project's dependencies. If you don't have virtual environment installed, install it using the following command:
 
 ```bash
 python -m venv venv
 ```
-### 2. Ambiente Virtual (Opcional)
-
-Instale as Dependências do Python, entre na pasta backend_2
+### 3. Install Python Dependencies
+Install Python Dependencies, go to the backend_2 folder
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Configuração do Banco de Dados
+### 4. Database Configuration
 
 MySQL
 
-1. Crie um banco de dados no MySQL.
+1. Create a database in MySQL.
 
-2. Configure as variáveis de ambiente para a conexão com o banco de dados no arquivo em settings.py
+2. Configure the environment variables for the database connection in the settings.py file
 
 ```python
 DATABASES = {
@@ -59,33 +57,33 @@ DATABASES = {
 }
 ```
 
-3. Aplique as migrações:
+3. Apply migrations:
 
 ```bash
 python manage.py migrate
 ```
 ### 5. FrontEnd
 
-Entre na pasta frontend para instalar as dependências do projeto
+Go to the frontend folder to install project dependencies
 
 ```bash
 npm install
 ```
-### 6. Executando o Projeto
+### 6. Running the Project
 
-Agora que o ambiente está configurado, você pode executar o projeto:
+Now that the environment is set up, you can run the project:
 
-1. Inicie o servidor Django na pasta backend_2 execute:
+1. Start the Django server in the backend_2 folder:
 
 ```bash
 python manage.py runserver
 ```
 
-2. Inicie o aplicativo React (a partir da pasta "frontend"):
+2. Start the React application (from the "frontend" folder):
 
 ```bash
 yarn dev
 ```
 
-O projeto agora deve estar em execução. Abra um navegador e acesse o URL local indicado pelo terminal localhost http://localhost:5173/
+The project should now be running. Open a browser and access the local URL indicated by the terminal localhost http://localhost:5173/
 
