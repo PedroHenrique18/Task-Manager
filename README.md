@@ -12,7 +12,7 @@ This is a task manager project with user authentication, built with Django Rest 
 # Prerequisites
 - Python and Django
 - MySQL
-- Node.js
+- React with TypeScript
 - Yarn (or npm)
 
 # Environment Setup
